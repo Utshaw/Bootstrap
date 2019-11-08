@@ -17,3 +17,11 @@ Example: <br />
     <p class="text-sm-center">This is some text that is centered on >= sm devices</p>
 
 ```
+
+### Marging and padding
+https://getbootstrap.com/docs/4.0/utilities/spacing/ <br />
+Formating:  `{property}{sides}-{size}` <br />
+Margin: `mb-0` means margin-bottom = 0
+
+### Floating and spacing
+https://getbootstrap.com/docs/4.0/utilities/float/
