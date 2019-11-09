@@ -9,6 +9,33 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Hello, world!</title>
+
+
+    <style>
+      .container-fluid {
+        margin-top: 50px;
+        padding: 20px 0;
+        background-color: coral;
+        display: flex;
+        /* flex-direction: row; */
+        /* flex-wrap: wrap; */
+        flex-flow: row wrap;
+        justify-content: center;
+        justify-content: space-between;
+      }
+
+      .item {
+        padding: 30px;
+        margin: 10px;
+        background-color: #777;
+        text-align: center;
+        font-size: 30px;
+        color: white;
+      }
+    </style>
+
+
+
   </head>
   <body>
     <h1>Hello, world!</h1>
@@ -33,9 +60,18 @@
 
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas reiciendis quam ullam quibusdam. Quas, at? Obcaecati numquam nam eaque ea quam repellat, iure fugiat quae inventore quidem quod eligendi reprehenderit?</p>
     
-    <div class="bg-secondary text-center p-2 clearfix fixed-bottom">
+    <div class="bg-secondary text-center p-2 clearfix fixed-top">
       <h1 class="bg-success p-2 float-md-left">Hello</h1>
       <h1 class="bg-success p-2 float-md-right">World</h1>
+    </div>
+
+    <div class="container-fluid">
+      <div class="item item1">A</div>
+      <div class="item item2">B</div>
+      <div class="item item3">C</div>
+      <div class="item item4">D</div>
+      <div class="item item5">E</div>
+      <div class="item item6">F</div>
     </div>
 
     <!-- Optional JavaScript -->
