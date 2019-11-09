@@ -20,7 +20,7 @@ Example: <br />
 
 ### Marging and padding
 https://getbootstrap.com/docs/4.0/utilities/spacing/ <br />
-Formating:  `{property}{sides}-{size}` <br />
+Formating:  `{property}{sides}-{size}` or `{property}{sides}-{breakpoint}-{size}` <br />
 Margin: `mb-0` means margin-bottom = 0
 
 ### Floating and spacing
