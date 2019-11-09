@@ -25,3 +25,8 @@ Margin: `mb-0` means margin-bottom = 0
 
 ### Floating and spacing
 https://getbootstrap.com/docs/4.0/utilities/float/
+
+### Flexbox
+![](img/flexbox1.png)
+
+Resources: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
