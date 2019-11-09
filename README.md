@@ -67,4 +67,41 @@ Input:
 Output:
 ![](img/flex-example.png) <br />
 
+Input:
+```
+ <style>
+      .container-fluid {
+        margin-top: 50px;
+        padding: 20px 0;
+        background-color: coral;
+        display: flex;
+        /* flex-direction: row; */
+        /* flex-wrap: wrap; */
+        flex-flow: column wrap;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+
+      .item {
+        padding: 30px;
+        margin: 10px;
+        background-color: #777;
+        text-align: center;
+        font-size: 30px;
+        color: white;
+      }
+    </style>
+      <div class="container-fluid">
+      <div class="item item1">A</div>
+      <div class="item item2">B</div>
+      <div class="item item3">C</div>
+      <div class="item item4">D</div>
+      <div class="item item5">E</div>
+      <div class="item item6">F</div>
+    </div>
+```
+Output:
+![](img/flex-example2.png) <br />
 
