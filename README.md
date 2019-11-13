@@ -1,5 +1,7 @@
 # Bootstrap  ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 
+
+
 <img src="img/bootstrap-logo.jpeg" align="right" width="100px" alt="Bootstrap logo">
 
 ## Intro
@@ -105,3 +107,93 @@ Input:
 Output:
 ![](img/flex-example2.png) <br />
 
+Input:
+```
+<style>
+      .container-fluid {
+        background-color: coral;
+        padding: 5px;
+        display: flex;
+        flex-flow: row wrap;
+        height: 700px;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      .item {
+        width: 70px;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        background-color: #777;
+      }
+
+      .item1 {
+        align-self: stretch;
+      }
+      .item3 {
+        align-self: flex-start;
+      }
+    </style>
+
+    <div class="container-fluid">
+      <div class="item item1">A</div>
+      <div class="item item2">B</div>
+      <div class="item item3">C</div>
+      <div class="item item4">D</div>
+      <div class="item item5">E</div>
+      <div class="item item6">E</div>
+      <div class="item item7">E</div>
+      <div class="item item8">E</div>
+      <div class="item item9">E</div>
+      <div class="item item10">E</div>
+    </div>
+
+```
+Output:
+![](img/flex-example3.png) <br />
+Input:
+```
+<style>
+      .container-fluid {
+        background-color: coral;
+        padding: 5px;
+        display: flex;
+        flex-flow: row wrap;
+        height: 700px;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      .item {
+        width: 70px;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        background-color: #777;
+      }
+
+      .item1 {
+        flex-grow: 1; /* takes 1 unit weight*/
+      }
+      .item10 {
+        flex-grow: 2;
+      }
+    </style>
+
+<div class="container-fluid">
+      <div class="item item1">A</div>
+      <div class="item item2">B</div>
+      <div class="item item3">C</div>
+      <div class="item item4">D</div>
+      <div class="item item5">E</div>
+      <div class="item item6">E</div>
+      <div class="item item7">E</div>
+      <div class="item item8">E</div>
+      <div class="item item9">E</div>
+      <div class="item item10">E</div>
+    </div>
+
+```
+Output:
+![](img/flex-example4.png)
